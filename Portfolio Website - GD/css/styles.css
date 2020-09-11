@@ -1,0 +1,551 @@
+body {
+    background-color: #2995E3;
+    margin: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.GDBody {
+    margin: auto 100px auto 20px;
+    position: relative;
+    left: 5%;
+}
+.GDBodySmall{
+    margin: auto 20px auto 20px;
+    position: relative;
+    left: 30%; 
+}
+
+.Nav_Menu {
+    list-style-type: none;
+    position: absolute;
+    bottom: 10%;
+    left: 9%;
+    width: 1000px;
+    margin: auto;
+    padding: auto;
+}
+
+.navbutton {
+    display: inline;
+    margin: auto 20px auto 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.PortPres {
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+    Width: 800px;
+    height: 500px;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 10px;
+}
+
+.PortPresleft {
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+    Width: 800px;
+    height: 500px;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 10px;
+    position: relative;
+    right: 1px;
+}
+
+.PortPresright {
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+    Width: 800px;
+    height: 500px;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 10px;
+    position: relative;
+    left: 825px;
+    bottom: 532px;
+}
+
+.PortInfo {
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+    Width: 800px;
+    height: 200px;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 10px;
+    position: relative;
+    left: 820px;
+    bottom: 532px;
+}
+.PortInfoSmall{
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+    Width: 800px;
+    height: 200px;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 10px;
+}
+
+.PortExpl {
+    margin: 10px;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.PortPicBox {
+    height: 390px;
+    margin: 15px;
+}
+
+.PortPic {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.PortPicSmall {
+    position: relative;
+    height: 100%;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.PortObjname {
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+.inlineNav {
+    display: inline;
+    transition: 0.05s;
+}
+
+.inlineNav:hover {
+    background-color: #e0dada;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Header {
+    background-color: white;
+    margin: auto;
+    position: fixed;
+    padding-left: 1590px;
+    height: 150px;
+    max-width: 100%;
+    top:0px;
+    z-index: 2;
+}
+
+.Resume {
+    position: relative;
+    right: 1230px;
+    bottom: 140px;
+    width: 250px;
+    padding: 0.1%;
+    background-color: black;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.Name {
+    margin: 0;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 2px;
+}
+
+.Title {
+    color: white;
+    position: relative;
+    top: 5px;
+    font-weight: bold;
+}
+
+.Intro_Info {
+    position: relative;
+    top: 30px;
+}
+
+.Introduction {
+    position: relative;
+    background-color: black;
+    width: 330px;
+    padding-bottom: 25px;
+    margin: auto;
+    right: 1550px;
+    /* right: 280px; */
+}
+
+.Download {
+    padding: auto;
+    color: white;
+}
+
+.General_Showcase {
+    position: block;
+    background-color: black;
+    /* margin: 25px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 3%;
+    /* padding-bottom: 20px; */
+}
+
+.showlist {
+    position: absolute;
+    list-style-type: none;
+    right: 0;
+    bottom: 0;
+}
+
+.General_Info {
+    position: relative;
+    left:2%;
+    bottom: 10px;
+}
+
+.Info {
+    position: relative;
+    top: 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.showcase {
+    background-color: white;
+    color: black;
+    width: 500px;
+    height: 230px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+}
+
+.showcase_alt {
+    background-color: white;
+    color: black;
+    width: 480px;
+    margin: 20px auto auto auto;
+    padding-bottom: 66px;
+}
+
+.small_box {
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 230px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.img_box {
+    background-color: white;
+    width: 380px;
+    height: 230px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.exp_box {
+    background-color: white;
+    color: black;
+    width: 500px;
+    margin: 20px auto auto auto;
+    padding-bottom: 50px;
+}
+
+
+.list_entry {
+    font-size: 14px;
+    line-height: 0.9;
+    text-align: left;
+}
+
+.list_head {
+    font-size: 14px;
+    line-height: 0.1;
+    text-align: left;
+}
+
+.single_list_entry {
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.InfoRow {
+    list-style-type: none;
+    position: relative;
+    right: 60px;
+    display: block;
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.infoinline {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.images {
+    width: 310px;
+    height: 260px;
+    margin: auto;
+    position: relative;
+    bottom: 20px;
+    border-radius: 20px;
+}
+
+.sm_images {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    position: relative;
+    bottom: 7px;
+    border-radius: 20px;
+}
+
+.Footer {
+    position: relative;
+    width: 100%;
+    padding-top: 2px;
+    top: 102px;
+    background-color: black;
+
+}
+
+.footinfo {
+    text-align: left;
+    padding-left: 40px;
+    position: relative;
+    bottom: 6px;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+.Portblock {
+    height: 520px;
+}
+
+.MyProfilePic {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 8px;
+    top: 15px;
+    position: relative;
+}
+
+.MyInfo {
+    background-color: white;
+    margin: 2% 30% auto 30%;
+    line-height: 25px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 6px;
+
+}
+
+.InfoPars {
+    padding: 20px;
+}
+
+.contactmeborder {
+    background-color: white;
+    height: 680px;
+    margin: 20px 20% auto 20%;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 6px;
+    color: black;
+}
+
+input {
+    width: 80%;
+    height: 30px;
+    margin: 1%;
+    border-color: black;
+    border-radius: 10px;
+    outline-width: 0;
+}
+
+textarea {
+    width: 80%;
+    height: 350px;
+    border-color: black;
+    border-radius: 10px;
+    outline-width: 0;
+}
+
+.Table_of_Contents {
+    position: fixed;
+    left: 90%;
+    line-height: 50px;
+    background-color: white;
+    height: 680px;
+    margin-top: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 4px;
+}
+
+#content {
+    position: relative;
+    margin-top: 10%;
+    opacity: 1;
+}
+
+.topspace {
+    margin-top: 18px;
+}
+
+.PageLink {
+    color: black;
+    transition: 0.05s;
+}
+
+.PageLink:hover {
+    background-color: #e0dada;
+}
+
+#MainBody {
+    margin-top: 200px;
+    display: none;
+}
+.expand{
+    width: 1903px;
+    margin:auto;
+}
+.dropdown {
+    position: absolute;
+    top: 70%;
+    left: 21.5%;
+    margin: auto;
+    padding: auto;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.projects {
+    position: relative;
+}
+
+.projects ul {
+    position: absolute;
+    right: 1px;
+    background: white;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    border-radius: 5px;
+    opacity:0;
+    pointer-events: all;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.projects a {
+    color: black;
+    text-decoration: none;
+}
+
+.projects li {
+    position: relative;
+    right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 1px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects li:hover {
+    background-color: rgb(206, 194, 194);
+}
+
+.dropdown button,
+.home {
+    background: none;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.dropdown button:hover,
+.home:hover {
+    color: grey;
+}
+
+/* .projects button:focus+ul {
+    opacity: 1;
+    pointer-events: all;
+    outline: none;
+} */
+
+#butfoc {
+    outline: 0;
+}
+.dropdownmenuicon{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+.ressmall{
+    background-color: black;
+    color: transparent;
+    width: 55px;
+    height: 58px;
+    text-shadow: 0 0 0 white;  
+    border-radius: 6px;
+}
+.ressmall h1{
+    position: relative;
+    top: 5px;
+    left: 1px;
+}
+#smallresbox{
+position: relative;
+right: 1180px;
+bottom: 140px;
+}
+#makefit{
+    width: 55px;
+}
